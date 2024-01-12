@@ -1,0 +1,46 @@
+.logo {
+    margin: 0;
+    background-color: var(--light-color);
+    color: var(--main-color);
+    text-align: center;
+    padding: 32px 0 ;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 3.2rem;
+}
+
+.navbar {
+    background-color: var(--main-color);
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    margin: 0;
+    gap: 8px;
+}
+
+.navbar-list--item {
+    width: 128px;
+    padding: 4px 8px;
+    background-color: var(--light-main-color);
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    list-style: none;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.navbar-list--item:hover {
+    background-color: var(--dark-main-color);
+    font-weight: 600;
+}
+
+.navbar-list--item a{
+    text-decoration: none;
+    color: var(--light-color);
+}

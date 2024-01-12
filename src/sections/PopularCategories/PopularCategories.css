@@ -1,0 +1,21 @@
+.popular-categories {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    max-width: 1184px;
+}
+
+.popular-categories-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.popular-categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    gap: 16px;
+}

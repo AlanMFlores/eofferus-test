@@ -1,0 +1,16 @@
+:root {
+  /*Variables*/
+  --light-main-color: #50B783;
+  --main-color: #32A871;
+  --dark-main-color: #1F7C52;
+  --dark-color: #18181B;
+  --light-color: #F4F4F5;
+  --gray-color: #71717A;
+  --light-gray-color: #C2C2C5;
+  --dark-gray-color: #3F3F46;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

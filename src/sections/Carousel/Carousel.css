@@ -1,0 +1,9 @@
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px auto;
+    margin-bottom: 80px;
+    gap: 16px;
+    justify-content: center;
+    max-width: 1184px;
+}
