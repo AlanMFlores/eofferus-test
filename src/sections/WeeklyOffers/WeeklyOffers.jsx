@@ -8,14 +8,9 @@ const WeeklyOffers = () => {
     <section className='weekly-offers'>
       <h2 className='weekly-offers-title'>Weekly Offers</h2>
       <div className='products-grid'>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
+        {
+          
+        }
       </div>
       <SeeMoreOffersButton/>
     </section>
