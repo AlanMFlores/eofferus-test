@@ -1,11 +1,11 @@
 import React from 'react'
 import "./CategoryCard.css"
 
-const CategoryCard = ({link, category, id}) => {
+const CategoryCard = ({image, category, id}) => {
   return (
     <div className='category-card' id={id}>
         <div className='category-card-image'>
-            <img src={link} alt="" />
+            <img src={`images/${image}.jpg`} alt="" />
         </div>
         <h2 className='category-card-title'>{category}</h2>
     </div>

@@ -6,11 +6,11 @@ const ProductCard = ({image, title, price}) => {
     <div className='product-card'>
         <div className='product-card-image'>
             <div className='background'></div>
-            <img src={`/public/images/products/${image}.png`} alt="product image" />
+            <img src={`images/products/${image}.png`} alt="product image" />
         </div>
         <div className='product-card-description'>
             <h3 className='product-card-description--title'>{title}</h3>
-            <h4 className='product-card-description--price'>{{price}}</h4>
+            <h4 className='product-card-description--price'>{price}</h4>
         </div>
     </div>
   )

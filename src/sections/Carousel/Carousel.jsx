@@ -5,10 +5,10 @@ import CategoryCard from '../../components/CategoryCard/CategoryCard'
 const Carousel = () => {
   return (
     <div className='carousel'>
-        <CategoryCard link={"images/sports-card.jpg"} category={"SPORTS"} id={"sports"}/>
-        <CategoryCard link={"images/home-card.jpg"} category={"HOME"} id={"home"}/>
-        <CategoryCard link={"images/electronics-card.jpg"} category={"ELECTRONICS"} id={"electronics"}/>
-        <CategoryCard link={"images/fashion-card.jpg"} category={"FASHION"} id={"fashion"}/>
+        <CategoryCard image={"sports-card"} category={"SPORTS"} id={"sports"}/>
+        <CategoryCard image={"home-card"} category={"HOME"} id={"home"}/>
+        <CategoryCard image={"electronics-card"} category={"ELECTRONICS"} id={"electronics"}/>
+        <CategoryCard image={"fashion-card"} category={"FASHION"} id={"fashion"}/>
     </div>
   )
 }
