@@ -5,6 +5,7 @@ import WeeklyOffers from './sections/WeeklyOffers/WeeklyOffers'
 import PopularCategories from './sections/PopularCategories/PopularCategories'
 import Footer from './components/Footer/Footer'
 import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs'
+import SeeMoreOffers from './sections/SeeMoreOffers/SeeMoreOffers'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Carousel/>
       <WeeklyOffers/>
       <PopularCategories/>
+      <SeeMoreOffers/>
       <Footer/>
     </>
   )
