@@ -8,7 +8,7 @@
     /* height: 480px; */
     height: 400px;
     margin: 80px auto;
-    background-image: url('images/sales-banner.webp');
+    background-image: url('public/images/sales-banner.webp');
     background-size: contain;
 }
 
