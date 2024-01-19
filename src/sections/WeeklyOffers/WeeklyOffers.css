@@ -3,18 +3,44 @@
     justify-content: center;
     flex-direction: column;
     margin: 0px auto;
-    max-width: 1184px;
 }
 
 .weekly-offers-title {
     font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .products-grid {
     display: grid;
+    justify-items: center;
     place-content: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 16px;
+    margin: 0 auto;
+}
+
+.see-more-offers-button {
+    margin: 48px auto 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .products-grid {
+        max-width: 956px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1280px;
+    }
 }

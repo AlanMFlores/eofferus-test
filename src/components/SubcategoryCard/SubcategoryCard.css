@@ -3,7 +3,8 @@
     position: relative;
     flex-direction: column;
     gap: 16px;
-    max-width: 284px;
+    width: 308px;
+    /* max-width: 284px; */
     cursor: pointer;
     transition: 200ms;
 }

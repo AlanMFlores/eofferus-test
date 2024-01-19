@@ -12,6 +12,7 @@
 }
 
 .navbar {
+    display: none;
     background-color: var(--main-color);
 }
 
@@ -43,4 +44,10 @@
 .navbar-list--item a{
     text-decoration: none;
     color: var(--light-color);
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        display: block;
+    }
 }

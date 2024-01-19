@@ -6,7 +6,7 @@ const SubcategoryCard = ({image, category}) => {
     <div className='subcategory-card'>
         <div className='subcategory-card-image'>
             <div className='background'></div>
-            <img src={`images/subcategories/${image}.png`} alt={`${category} image`}/>
+            <img src={`images/subcategories/${image}.webp`} alt={`${category} image`}/>
         </div>
         <div className='subcategory-card-description'>
             <h3 className='subcategory-card-description--title'>{category}</h3>

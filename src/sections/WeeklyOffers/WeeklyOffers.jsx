@@ -17,7 +17,9 @@ const WeeklyOffers = () => {
           <ProductCard image={"puma-men"} title={"PUMA Men's Axelion Ridge C..."} price={"$54,97"}/>
           <ProductCard image={"puma-men"} title={"PUMA Men's Axelion Ridge C..."} price={"$54,97"}/>
       </div>
-      <SeeMoreOffersButton/>
+      <div className='see-more-offers-button'>
+        <SeeMoreOffersButton/>
+      </div>
     </section>
   )
 }

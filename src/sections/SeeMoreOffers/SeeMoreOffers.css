@@ -3,10 +3,13 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    max-width: 1184px;
-    height: 480px;
+    max-width: 308px;
+    /* max-width: 1184px; */
+    /* height: 480px; */
+    height: 400px;
     margin: 80px auto;
-    background-image: url('/public/images/sales-banner.jpg');
+    background-image: url('/public/images/sales-banner.webp');
+    background-size: contain;
 }
 
 .offers::before {
@@ -28,10 +31,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .offers-description--title {
     color: var(--light-color);
-    font-size: 4rem;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 48px;
+}
 
+@media screen and (min-width: 768px) {
+    .offers {
+        max-width: 632px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .offers {
+        max-width: 956px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .offers {
+        max-width: 1280px;
+    }
 }

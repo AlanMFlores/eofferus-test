@@ -1,9 +1,36 @@
 .carousel {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0px auto;
-    margin-bottom: 80px;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px auto 80px;
     gap: 16px;
-    justify-content: center;
-    max-width: 1184px;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        margin: 0 68px 80px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carousel {
+        margin: 0 72px 80px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .carousel {
+        margin: 0 108px 80px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .carousel {
+        max-width: 1280px;
+        margin: 0 auto 80px;
+    }
 }
