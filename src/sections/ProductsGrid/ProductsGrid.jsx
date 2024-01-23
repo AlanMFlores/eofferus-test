@@ -1,13 +1,8 @@
-import React from 'react'
 import ProductCard from '../../components/ProductCard/ProductCard';
-import "./WeeklyOffers.css"
-import SeeMoreOffersButton from '../../components/SeeMoreOffersButton/SeeMoreOffersButton';
 
-const WeeklyOffers = () => {
+const ProductsGrid = () => {
   return (
-    <section className='weekly-offers'>
-      <h2 className='weekly-offers-title'>Weekly Offers</h2>
-      <div className='products-grid'>
+    <div className='products-grid'>
           <ProductCard image={"puma-men"} title={"PUMA Men's Axelion Ridge C..."} price={"$54,97"}/>
           <ProductCard image={"puma-men"} title={"PUMA Men's Axelion Ridge C..."} price={"$54,97"}/>
           <ProductCard image={"puma-men"} title={"PUMA Men's Axelion Ridge C..."} price={"$54,97"}/>
@@ -17,11 +12,7 @@ const WeeklyOffers = () => {
           <ProductCard image={"puma-men"} title={"PUMA Men's Axelion Ridge C..."} price={"$54,97"}/>
           <ProductCard image={"puma-men"} title={"PUMA Men's Axelion Ridge C..."} price={"$54,97"}/>
       </div>
-      <div className='see-more-offers-button'>
-        <SeeMoreOffersButton/>
-      </div>
-    </section>
   )
 }
 
-export default WeeklyOffers
+export default ProductsGrid

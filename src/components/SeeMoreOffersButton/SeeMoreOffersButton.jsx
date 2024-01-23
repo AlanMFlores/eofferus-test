@@ -1,11 +1,12 @@
 import React from 'react'
 import './SeeMoreOffersButton.css'
+import { Link } from 'react-router-dom'
 
 const SeeMoreOffersButton = () => {
   return (
-    <a href='#' className='see-more-offers'>
+    <Link to='/weekly-offers' className='see-more-offers'>
         See More Offers
-    </a>
+    </Link>
   )
 }
 

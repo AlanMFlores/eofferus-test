@@ -1,22 +1,21 @@
 import Header from './components/Header/Header'
-import './App.css'
-import Carousel from './sections/Carousel/Carousel'
-import WeeklyOffers from './sections/WeeklyOffers/WeeklyOffers'
-import PopularCategories from './sections/PopularCategories/PopularCategories'
 import Footer from './components/Footer/Footer'
-import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs'
-import SeeMoreOffers from './sections/SeeMoreOffers/SeeMoreOffers'
+import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Electronics from './pages/electronics'
+import WeeklyOffers from './pages/WeeklyOffers'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Breadcrumbs/>
-      <Carousel/>
-      <WeeklyOffers/>
-      <PopularCategories/>
-      <SeeMoreOffers/>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route path='/weekly-offers' element={<WeeklyOffers/>}/>
+        <Route path='/electronics' element={<Electronics/>}/>
+      </Routes>
       <Footer/>
     </>
   )

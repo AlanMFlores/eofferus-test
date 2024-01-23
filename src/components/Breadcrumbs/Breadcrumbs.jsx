@@ -1,10 +1,10 @@
 import React from 'react';
 import './Breadcrumbs.css'
 
-const Breadcrumbs = () => {
+const Breadcrumbs = ({route}) => {
   return (
     <div className='breadcrumbs-container'>
-        <p className='breadcrumbs'>{">"} Home</p>
+        <p className='breadcrumbs'>Home {">"} {route}</p>
     </div>
   )
 }

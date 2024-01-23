@@ -26,7 +26,6 @@
 
 .navbar-list--item {
     width: 128px;
-    padding: 4px 8px;
     background-color: var(--light-main-color);
     text-align: center;
     font-size: 1.6rem;
@@ -42,8 +41,10 @@
 }
 
 .navbar-list--item a{
+    display: block;
     text-decoration: none;
     color: var(--light-color);
+    padding: 4px 8px;
 }
 
 @media screen and (min-width: 992px) {
