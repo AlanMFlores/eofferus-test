@@ -1,4 +1,3 @@
-import React from 'react';
 import './SubcategoryCard.css'
 
 const SubcategoryCard = ({image, category}) => {

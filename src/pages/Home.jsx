@@ -7,7 +7,7 @@ import WeeklyOffersHome from '../sections/WeeklyOffersHome/WeeklyOffersHome.jsx'
 const Home = () => {
   return (
     <main>
-        <PageHeader route={""}/>
+        <PageHeader/>
         <Carousel/>
         <WeeklyOffersHome/>
         <PopularCategories/>
