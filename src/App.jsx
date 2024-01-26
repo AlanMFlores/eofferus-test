@@ -3,7 +3,7 @@ import Footer from './components/Footer/Footer'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Electronics from './pages/electronics'
+import Electronics from './pages/Electronics'
 import WeeklyOffers from './pages/WeeklyOffers'
 
 function App() {
